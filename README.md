@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# World Todo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the Source of wordl_todo_client with React for watching demo [Click Here](https://mortiff75.github.io/todo_client_react/)
 
-## Available Scripts
+## Don't Forget:
+Run in localy beacause mysql database isn't online for doing this please clone server source [Click Here](https://mortiff75.github.io/todo_client_react/)
 
-In the project directory, you can run:
+## Screenshots
 
-### `npm start`
+## Light Mode
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](<https://raw.githubusercontent.com/mortiff75/todo_client_react/refs/heads/main/Screenshot%20(213).png>)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Dark Mode
 
-### `npm test`
+![App Screenshot](<https://github.com/mortiff75/todo_client_react/blob/main/Screenshot%20(214).png?raw=true>)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Full Responsive
 
-### `npm run build`
+![App Screenshot](<https://github.com/mortiff75/todo_client_react/blob/main/Screenshot%20(216).png?raw=true>)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install my-project with yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm i .
+```
 
-### `npm run eject`
+## Run Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  git clone https://github.com/mortiff75/real_state.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Go to the project directory
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm start
+```
 
-## Learn More
+### that will be start with wbpack-dev-sever
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  yarn add
+```
 
-### Code Splitting
+Start the api/app.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+for each side:
+  npm run dev
+```
 
-### Analyzing the Bundle Size
+## 🛠 Skills
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,redux,prisma,mysql,nodejs,npm,materialui,express&)](https://skillicons.dev)
 
-### Making a Progressive Web App
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Mongodb Database
+- OpenStreet Map
+- Context State
+- Full Responsive
+- Dark and Light Mode
