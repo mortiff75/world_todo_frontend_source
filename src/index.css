@@ -1,0 +1,27 @@
+:root {
+  --main-padding-vert: 16px;
+  --main-padding-horiz: 5%;
+}
+
+@font-face {
+  font-family: "Nexa-Bold";
+  src: url("../public/fonts/Nexabold.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+body {
+  overflow: hidden;
+}

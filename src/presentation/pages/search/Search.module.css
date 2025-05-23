@@ -1,0 +1,14 @@
+.searchPage {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.searchDiv {
+  width: 50%;
+  align-self: center;
+  padding-bottom: 4%;
+}
+
+.searchPage input {
+  padding: 24px;
+}

@@ -1,0 +1,27 @@
+.section_todos {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.circularProgress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section_emptyList__Todo {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  padding-top: 8rem;
+}
+
+.section_emptyList__Todo h1 {
+  text-align: center;
+}

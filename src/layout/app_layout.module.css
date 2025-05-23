@@ -1,0 +1,45 @@
+.main {
+  width: 100vw;
+  flex-grow: 1;
+  height: 100vh;
+  padding-top: var(--main-padding-vert);
+  padding-left: var(--main-padding-horiz);
+  padding-right: var(--main-padding-horiz);
+}
+
+.pages {
+  padding-left: 8px;
+  height: 100%;
+  overflow-y: scroll !important;
+  scroll-behavior: smooth;
+  flex: 1 0 0;
+}
+
+/* تنظیم عرض اسکرول بار */
+.pages::-webkit-scrollbar {
+  width: 12px;
+}
+
+.dark {
+  background-color: transparent;
+}
+
+/* استایل بخش کلی اسکرول بار (track) */
+.pages::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* استایل قسمت قابل کشیدن (thumb) */
+.pages:not(.dark)::-webkit-scrollbar-thumb {
+  background-color: #301934; /* رنگ اصلی */
+  border-radius: 10px; /* گرد کردن لبه‌ها */
+  border: 3px solid #f1f1f1; /* ایجاد فاصله در اطراف thumb */
+}
+
+.pages:is(.dark)::-webkit-scrollbar-thumb {
+  background-color: #ffffff; /* رنگ اصلی */
+  border-radius: 10px; /* گرد کردن لبه‌ها */
+  border: 3px solid #f1f1f1; /* ایجاد فاصله در اطراف thumb */
+}
+
+/* تغییر رنگ thumb هنگام hover کردن */
