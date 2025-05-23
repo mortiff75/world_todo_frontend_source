@@ -32,7 +32,7 @@ Install my-project with yarn
 Clone the project
 
 ```bash
-  git clone https://github.com/mortiff75/real_state.git
+  https://github.com/mortiff75/world_todo_frontend_source.git
 ```
 
 Go to the project directory
